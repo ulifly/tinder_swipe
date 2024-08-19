@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
   <title>Tinder-swipe</title>
 </head>
 
@@ -11,16 +12,37 @@
   <main>
     <section>
       <header>
-        <img src="" alt="logo">
+        <img src="/assets/tinder-logo.webp" alt="logo">
       </header>
       <div class="cards">
+        <article>
+          <img src="/photos/2.webp" alt="image">
+          <h2>John Doe<span>25</span></h2>
+          <p>Developer</p>
+          <div class="nope">Nope</div>
+          <div class="like">Like</div>
+        </article>
+
+        <article>
+          <img src="/photos/1.webp" alt="image">
+          <h2>Jane Doe<span>25</span></h2>
+          <p>Doctor</p>
+          <div class="nope">Nope</div>
+          <div class="like">Like</div>
+        </article>
 
       </div>
       <footer>
+        <button class="is-undo" aria-label="undo"></button>
+        <button class="is-remove is-big" aria-label="remove"></button>
+        <button class="is-star" aria-label="star"></button>
+        <button class="is-fav is-big" aria-label="fav"></button>
+        <button class="is-zap" aria-label="zap"></button>
 
       </footer>
     </section>
   </main>
+  <script src="/js/main.js"></script>
 </body>
 
 </html>
